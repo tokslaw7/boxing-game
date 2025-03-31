@@ -1,11 +1,16 @@
-const currentPlayer = player1;
+//const currentPlayer = player1;
 
 let player1 = {
     name: "Player 1",
     health: 100,
     };
 
-let player2 = player1;
+let player2 = {
+    name: "player 2",
+    health: 100,
+}
+
+let currentPlayer = player1;
 
 // Function to generate random damage
 function generateDamage() {
